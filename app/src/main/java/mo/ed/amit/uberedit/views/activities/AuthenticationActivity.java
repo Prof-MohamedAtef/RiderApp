@@ -96,20 +96,23 @@ public class AuthenticationActivity extends AppCompatActivity {
                                 GoogleConfigs.FirebaseUserID = userID;
                                 startActivity(new Intent(AuthenticationActivity.this, MapActivity.class));
                                 Log.e("FirebaseUserID","FirebaseUserID: "+ userID);
+                                enableButtons();
                             }else {
                                 Toast.makeText(getApplicationContext(), getResources().getString(R.string.email_verify), Toast.LENGTH_LONG).show();
-                                binding.btnSignIn.setEnabled(true);
-                                binding.etPassword.setEnabled(true);
-                                binding.etEmail.setEnabled(true);
+                                enableButtons();
                             }
                         }else {
                             Toast.makeText(getApplicationContext(), task.getException().toString(), Toast.LENGTH_LONG).show();
-                            binding.btnSignIn.setEnabled(true);
-                            binding.etPassword.setEnabled(true);
-                            binding.etEmail.setEnabled(true);
+                            enableButtons();
                         }
                     }
                 });
+    }
+
+    private void enableButtons() {
+        binding.btnSignIn.setEnabled(true);
+        binding.etPassword.setEnabled(true);
+        binding.etEmail.setEnabled(true);
     }
 
     private void createFirebaseAccount(String mEmail, String mPassword, boolean isDriver) {
@@ -157,9 +160,7 @@ public class AuthenticationActivity extends AppCompatActivity {
                                                             Toast.makeText(AuthenticationActivity.this, "Successful Registration! Login Please!",
                                                                     Toast.LENGTH_SHORT).show();
                                                             binding.btnSignUp.setVisibility(View.GONE);
-                                                            binding.btnSignIn.setEnabled(true);
-                                                            binding.etPassword.setEnabled(true);
-                                                            binding.etEmail.setEnabled(true);
+                                                            enableButtons();
                                                             Log.e("FirebaseUserID","FirebaseUserID: "+ user.getUid());
                                                         }
                                                     });

@@ -1,5 +1,7 @@
 package mo.ed.amit.uberedit.utils;
 
+import mo.ed.amit.uberedit.views.activities.MapActivity;
+
 public class Constants {
     public static final String PAYMENT = "CASH";
     public static final String ETA_VALUE = "04:05 PM";
@@ -10,4 +12,6 @@ public class Constants {
     public static String Phone="+201097555350";
     public static String Price="80.00 EGP";
     public static String Distance="5Km";
+    public static int CALL_REQUEST_CODE=99;
+    public static MapActivity MapActivity;
 }
