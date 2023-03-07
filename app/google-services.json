@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "364637955019",
+    "firebase_url": "https://yusor-43e78.firebaseio.com",
+    "project_id": "yusor-43e78",
+    "storage_bucket": "yusor-43e78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364637955019:android:24e707923f752266910c4e",
+        "android_client_info": {
+          "package_name": "mo.ed.course.two.amit.uber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364637955019-ccbl80d2giagoo4du2dh6ce16i585go7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mo.ed.course.two.amit.uber",
+            "certificate_hash": "747556ea5faaeae9d7d98238fc37945859968e04"
+          }
+        },
+        {
+          "client_id": "364637955019-4so1h6qndggseuufl0v09rqub1p2hd36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJg3hMY0ZJL9HXAfwRuLDqfo8BzzsbZzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364637955019-4so1h6qndggseuufl0v09rqub1p2hd36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364637955019:android:34bf9dc618dd59a7910c4e",
+        "android_client_info": {
+          "package_name": "mo.ed.course.two.amit.uberedit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364637955019-4so1h6qndggseuufl0v09rqub1p2hd36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJg3hMY0ZJL9HXAfwRuLDqfo8BzzsbZzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364637955019-4so1h6qndggseuufl0v09rqub1p2hd36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364637955019:android:fe5f77b439b87f3f",
+        "android_client_info": {
+          "package_name": "mo.ed.prof.yusor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364637955019-2aelntngp873f67ncgh5sfe61nvvlcbl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mo.ed.prof.yusor",
+            "certificate_hash": "747556ea5faaeae9d7d98238fc37945859968e04"
+          }
+        },
+        {
+          "client_id": "364637955019-5jll554toc9eu1i30si6e8qqlnpgv1g5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mo.ed.prof.yusor",
+            "certificate_hash": "5323887efae52f862d5e129e8d3d41945237f985"
+          }
+        },
+        {
+          "client_id": "364637955019-4so1h6qndggseuufl0v09rqub1p2hd36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJg3hMY0ZJL9HXAfwRuLDqfo8BzzsbZzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364637955019-4so1h6qndggseuufl0v09rqub1p2hd36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364637955019:android:269b66d3bd74168b",
+        "android_client_info": {
+          "package_name": "mo.ed.taibahu.yusor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364637955019-b0lrmt7u5ld4rmvpvhal0efsd9u5q58p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mo.ed.taibahu.yusor",
+            "certificate_hash": "4b604354bbe69c2ba3f05ac4b04ff36c3cba7fb9"
+          }
+        },
+        {
+          "client_id": "364637955019-4so1h6qndggseuufl0v09rqub1p2hd36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJg3hMY0ZJL9HXAfwRuLDqfo8BzzsbZzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364637955019-4so1h6qndggseuufl0v09rqub1p2hd36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
