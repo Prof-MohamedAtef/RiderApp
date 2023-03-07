@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">UberEdit</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email_verify">Check Email!</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="userName">Mohamed Atef</string>
+    <string name="taxi">Taxi</string>
+    <string name="call_driver">Call Driver</string>
+    <string name="distance">Distance</string>
+    <string name="price">Price</string>
+    <string name="eta">ETA</string>
+    <string name="payment">Payment</string>
+    <string name="sign_out">Sign Out</string>
 </resources>

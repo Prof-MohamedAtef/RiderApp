@@ -8,20 +8,12 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:364637955019:android:24e707923f752266910c4e",
+        "mobilesdk_app_id": "1:364637955019:android:b06d3421d1791faa910c4e",
         "android_client_info": {
-          "package_name": "mo.ed.course.two.amit.uber"
+          "package_name": "mo.ed.amit.uberedit"
         }
       },
       "oauth_client": [
-        {
-          "client_id": "364637955019-ccbl80d2giagoo4du2dh6ce16i585go7.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "mo.ed.course.two.amit.uber",
-            "certificate_hash": "747556ea5faaeae9d7d98238fc37945859968e04"
-          }
-        },
         {
           "client_id": "364637955019-4so1h6qndggseuufl0v09rqub1p2hd36.apps.googleusercontent.com",
           "client_type": 3
@@ -45,12 +37,20 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:364637955019:android:34bf9dc618dd59a7910c4e",
+        "mobilesdk_app_id": "1:364637955019:android:24e707923f752266910c4e",
         "android_client_info": {
-          "package_name": "mo.ed.course.two.amit.uberedit"
+          "package_name": "mo.ed.course.two.amit.uber"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "364637955019-ccbl80d2giagoo4du2dh6ce16i585go7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mo.ed.course.two.amit.uber",
+            "certificate_hash": "747556ea5faaeae9d7d98238fc37945859968e04"
+          }
+        },
         {
           "client_id": "364637955019-4so1h6qndggseuufl0v09rqub1p2hd36.apps.googleusercontent.com",
           "client_type": 3

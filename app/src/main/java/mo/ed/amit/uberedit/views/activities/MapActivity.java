@@ -1,14 +1,16 @@
-package mo.ed.course.two.amit.uberedit;
+package mo.ed.amit.uberedit.views.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import mo.ed.amit.uberedit.R;
+
+public class MapActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_map);
     }
 }
