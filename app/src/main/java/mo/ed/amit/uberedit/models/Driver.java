@@ -1,12 +1,88 @@
 package mo.ed.amit.uberedit.models;
 
-public class Driver {
-    String DISTANCE, EMAIL, ETA, FIREBASE_USER_ID, LATITUDE, LONGITUDE, PAYMENT, PHONE_NUMBER, PRICE, PROFILE_PICTURE, RATING_VALUE, STATUS, VEHICLE_TYPE;
-    boolean isDriver;
+import androidx.annotation.NonNull;
+import androidx.room.ColumnInfo;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
+import java.io.Serializable;
+
+@Entity(tableName = "DriversTBL")
+public class Driver implements Serializable {
+
+    @NonNull
+    @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name = "DriverID")
+    private int DriverID;
+
+    @NonNull
+    public int getDriverID() {
+        return DriverID;
+    }
+
+    public void setDriverID(int driverID) {
+        DriverID = driverID;
+    }
+    @NonNull
+    @ColumnInfo()
+    String DISTANCE;
+
+    @NonNull
+    @ColumnInfo()
+    String EMAIL;
+
+    @NonNull
+    @ColumnInfo()
+    String ETA;
+
+    @NonNull
+    @ColumnInfo()
+    String FIREBASE_USER_ID;
+
+    @NonNull
+    @ColumnInfo()
+    String LATITUDE;
+
+    @NonNull
+    @ColumnInfo()
+    String LONGITUDE;
+
+    @NonNull
+    @ColumnInfo()
+    String PAYMENT;
+
+    @NonNull
+    @ColumnInfo()
+    String PHONE_NUMBER;
+
+    @NonNull
+    @ColumnInfo()
+    String PRICE;
+
+    @NonNull
+    @ColumnInfo()
+    String PROFILE_PICTURE;
+
+    @NonNull
+    @ColumnInfo()
+    String RATING_VALUE;
+
+    @NonNull
+    @ColumnInfo()
+    String STATUS;
+
+    @NonNull
+    @ColumnInfo()
+    String VEHICLE_TYPE;
+
+    @NonNull
+    @ColumnInfo()
+    String IS_DRIVER;
 
     public Driver() {
     }
 
+    @NonNull
     public String getDISTANCE() {
         return DISTANCE;
     }
@@ -15,6 +91,7 @@ public class Driver {
         this.DISTANCE = DISTANCE;
     }
 
+    @NonNull
     public String getEMAIL() {
         return EMAIL;
     }
@@ -23,6 +100,7 @@ public class Driver {
         this.EMAIL = EMAIL;
     }
 
+    @NonNull
     public String getETA() {
         return ETA;
     }
@@ -31,6 +109,7 @@ public class Driver {
         this.ETA = ETA;
     }
 
+    @NonNull
     public String getFIREBASE_USER_ID() {
         return FIREBASE_USER_ID;
     }
@@ -39,6 +118,7 @@ public class Driver {
         this.FIREBASE_USER_ID = FIREBASE_USER_ID;
     }
 
+    @NonNull
     public String getLATITUDE() {
         return LATITUDE;
     }
@@ -47,6 +127,7 @@ public class Driver {
         this.LATITUDE = LATITUDE;
     }
 
+    @NonNull
     public String getLONGITUDE() {
         return LONGITUDE;
     }
@@ -55,6 +136,7 @@ public class Driver {
         this.LONGITUDE = LONGITUDE;
     }
 
+    @NonNull
     public String getPAYMENT() {
         return PAYMENT;
     }
@@ -63,6 +145,7 @@ public class Driver {
         this.PAYMENT = PAYMENT;
     }
 
+    @NonNull
     public String getPHONE_NUMBER() {
         return PHONE_NUMBER;
     }
@@ -71,6 +154,7 @@ public class Driver {
         this.PHONE_NUMBER = PHONE_NUMBER;
     }
 
+    @NonNull
     public String getPRICE() {
         return PRICE;
     }
@@ -79,6 +163,7 @@ public class Driver {
         this.PRICE = PRICE;
     }
 
+    @NonNull
     public String getPROFILE_PICTURE() {
         return PROFILE_PICTURE;
     }
@@ -87,6 +172,7 @@ public class Driver {
         this.PROFILE_PICTURE = PROFILE_PICTURE;
     }
 
+    @NonNull
     public String getRATING_VALUE() {
         return RATING_VALUE;
     }
@@ -95,6 +181,7 @@ public class Driver {
         this.RATING_VALUE = RATING_VALUE;
     }
 
+    @NonNull
     public String getSTATUS() {
         return STATUS;
     }
@@ -103,6 +190,7 @@ public class Driver {
         this.STATUS = STATUS;
     }
 
+    @NonNull
     public String getVEHICLE_TYPE() {
         return VEHICLE_TYPE;
     }
@@ -111,15 +199,16 @@ public class Driver {
         this.VEHICLE_TYPE = VEHICLE_TYPE;
     }
 
-    public boolean isDriver() {
-        return isDriver;
+    @NonNull
+    public String getIS_DRIVER() {
+        return IS_DRIVER;
     }
 
-    public void setIS_DRIVER(boolean IS_DRIVER) {
-        this.isDriver = IS_DRIVER;
+    public void setIS_DRIVER(String IS_DRIVER) {
+        this.IS_DRIVER = IS_DRIVER;
     }
 
-    public Driver(String DISTANCE, String EMAIL, String ETA, String FIREBASE_USER_ID, String LATITUDE, String LONGITUDE, String PAYMENT, String PHONE_NUMBER, String PRICE, String PROFILE_PICTURE, String RATING_VALUE, String STATUS, String VEHICLE_TYPE) {
+    public Driver(String DISTANCE, String EMAIL, String ETA, String FIREBASE_USER_ID, String LATITUDE, String LONGITUDE, String PAYMENT, String PHONE_NUMBER, String PRICE, String PROFILE_PICTURE, String RATING_VALUE, String STATUS, String VEHICLE_TYPE, String IS_DRIVER) {
         this.DISTANCE = DISTANCE;
         this.EMAIL = EMAIL;
         this.ETA = ETA;
@@ -133,5 +222,6 @@ public class Driver {
         this.RATING_VALUE = RATING_VALUE;
         this.STATUS = STATUS;
         this.VEHICLE_TYPE = VEHICLE_TYPE;
+        this.IS_DRIVER = IS_DRIVER;
     }
 }

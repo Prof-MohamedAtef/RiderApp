@@ -1,4 +1,4 @@
-package mo.ed.amit.uberedit.network;
+package mo.ed.amit.uberedit.utils.network;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

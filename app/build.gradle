@@ -15,6 +15,8 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        multiDexEnabled true
     }
 
     buildFeatures {
@@ -46,5 +48,24 @@ dependencies {
     // circle imageview
     implementation 'de.hdodenhof:circleimageview:3.1.0'
 
+    // picasso
     implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    // room
+    implementation "androidx.room:room-runtime:2.4.3"
+    annotationProcessor "androidx.room:room-compiler:2.4.3"
+
+
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel:2.6.0-alpha02"
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata:2.6.0-alpha02"
+    // Lifecycles only (without ViewModel or LiveData)
+    implementation "androidx.lifecycle:lifecycle-runtime:2.6.0-alpha02"
+    // Saved state module for ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.0-alpha02"
+
+    //multidex
+    def multidex_version = "2.0.1"
+    implementation "androidx.multidex:multidex:$multidex_version"
 }

@@ -26,7 +26,7 @@ import mo.ed.amit.uberedit.R;
 import mo.ed.amit.uberedit.databinding.ActivityAuthenticationBinding;
 import mo.ed.amit.uberedit.utils.Constants;
 import mo.ed.amit.uberedit.utils.GoogleConfigs;
-import mo.ed.amit.uberedit.network.VerifyConnection;
+import mo.ed.amit.uberedit.utils.network.VerifyConnection;
 
 public class AuthenticationActivity extends AppCompatActivity {
 
